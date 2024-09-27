@@ -5,7 +5,8 @@ def is_palindrome2(sentence):
     """
     States if a `string` is a palindrome
     :param sentence:The `string` that the user types in when prompted to enter the value
-    :return: Returns a boolean vale
+    The function is case-insensitive and ignores whitespace and capitalisation
+    :return: Returns `True` if the sentence is a Palindrome, otherwise returns `False`
     """
     string=""
     for char in sentence:
