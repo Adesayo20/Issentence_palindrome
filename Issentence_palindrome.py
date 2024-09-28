@@ -1,7 +1,7 @@
-def is_palindrome(string):
+def is_palindrome(string:str) -> bool:
     return string[::-1].casefold() == string.casefold()
 
-def is_palindrome2(sentence):
+def is_palindrome2(sentence:str) -> bool:
     """
     States if a `string` is a palindrome
     :param sentence:The `string` that the user types in when prompted to enter the value
